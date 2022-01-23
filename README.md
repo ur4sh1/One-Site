@@ -1,24 +1,8 @@
 # onesite
 
-## Project setup
-```
-npm install
-```
+# Criação de um site em Vue.js / Axios
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# mobile first
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Future features
+# - API
