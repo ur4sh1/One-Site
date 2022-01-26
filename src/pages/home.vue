@@ -2,7 +2,7 @@
     <main>
         <div class="text-top">Canal de <b>games</b>!</div>
         <a href="https://www.youtube.com/channel/UCCxnQjot1MyUDP1FFMIbP0g" target="_blank">
-            <img alt="Inscreva-se" id="subscribe" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/subscribe.svg">
+            <img alt="Inscreva-se" id="subscribe" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/subscribe.svg">
         </a>
         <div class="text-bottom">Ur4sh1GameS</div>
     </main>

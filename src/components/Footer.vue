@@ -1,11 +1,25 @@
 <template>
   <footer>
+      <a class="socialLink" v-for="(socialLink,index) in socialLinks" :key="index" :href="socialLink.link">
+          <img :alt="socialLink.label" :src="socialLink.icon" :title="socialLink.label">
+      </a>
   </footer>
 </template>
 
 <script>
+import api from '@/services/api.js'
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    data(){
+        return {
+            socialLinks: []
+        }
+    },
+    mounted() {
+        api.get('/social-links.json').then(response =>{
+            this.socialLinks = response.data
+        });
+    }
 }
 </script>
 
@@ -17,5 +31,19 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .socialLink{
+        border: 1px solid var(--color-text-light);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialLink img{
+        width: 30px;
     }
 </style>

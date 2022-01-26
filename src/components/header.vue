@@ -1,12 +1,12 @@
 <template>
   <header>
       <nav class="container">
-          <a href="/"><img alt="ONE SITE" id="logo" src="https://i1.wp.com/byteslivres.com.br/blog/wp-content/uploads/2018/04/Terminal-icon.png?ssl=1"></a>
-          <img alt="ONE SITE" v-on:click="openMenu" id="menu-button" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg">
+          <a href="/"><img alt="ONE SITE" id="logo" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/Terminal-icon.png"></a>
+          <img alt="ONE SITE" v-on:click="openMenu" id="menu-button" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/menu.svg">
 
           <div v-on:click="closeMenu" id="menu-overlay" v-if="menuActive"></div>
           <div id="menu-itens" :class="{active:menuActive}">
-              <img alt="ONE SITE" id="menu-logo" src="https://i1.wp.com/byteslivres.com.br/blog/wp-content/uploads/2018/04/Terminal-icon.png?ssl=1">
+              <img alt="ONE SITE" id="menu-logo" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/Terminal-icon.png">
               <ul>
                   <li><a href="/">Home</a></li>
                   <li><a href="/about">About</a></li>
