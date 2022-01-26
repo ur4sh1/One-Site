@@ -39,11 +39,11 @@ export default {
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .socialLink img{
-        width: 30px;
+        width: 40px;
     }
 </style>

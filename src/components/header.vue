@@ -9,6 +9,7 @@
               <img alt="ONE SITE" id="menu-logo" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/Terminal-icon.png">
               <ul>
                   <li><a href="/">Home</a></li>
+                  <li><a href="/Videos">Vídeos</a></li>
                   <li><a href="/about">About</a></li>
               </ul>
           </div>
