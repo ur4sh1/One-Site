@@ -12,7 +12,8 @@ export default {
     name: 'Footer',
     data(){
         return {
-            socialLinks: []
+            socialLinks: [],
+            tempos: []
         }
     },
     mounted() {
