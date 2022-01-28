@@ -15,6 +15,12 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
 
+            <iframe class="ytube"
+            src="https://www.youtube.com/embed/QzqltxomtZA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
           </section>
       </section>
   </main>
@@ -47,15 +53,14 @@ export default {
 
     @media(min-width: 700px){
         .ytube{
-            width: 550px;
-            height: 380px;
             margin-left: 20px;
         }
         .videos{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-items: center;
+        flex-wrap: wrap;
         }
     }
 </style>
