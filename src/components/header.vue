@@ -1,16 +1,16 @@
 <template>
   <header>
       <nav class="container">
-          <a href="/"><img alt="ONE SITE" id="logo" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/Terminal-icon.png"></a>
+          <router-link to="/"><img alt="ONE SITE" id="logo" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/Terminal-icon.png"></router-link>
           <img alt="ONE SITE" v-on:click="openMenu" id="menu-button" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/menu.svg">
 
           <div v-on:click="closeMenu" id="menu-overlay" v-if="menuActive"></div>
           <div id="menu-itens" :class="{active:menuActive}">
               <img alt="ONE SITE" id="menu-logo" src="https://raw.githubusercontent.com/ur4sh1/one-site-resources/main/assets/img/Terminal-icon.png">
               <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/Videos">Vídeos</a></li>
-                  <li><a href="/About">About</a></li>
+                  <li v-on:click="closeMenu"><router-link to="/">Home</router-link></li>
+                  <li v-on:click="closeMenu"><router-link to="/Videos">Vídeos</router-link></li>
+                  <li v-on:click="closeMenu"><router-link to="/About">About</router-link></li>
               </ul>
           </div>
       </nav>
