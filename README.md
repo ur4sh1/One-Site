@@ -1,5 +1,7 @@
-# onesite
+<h1 align="center">:file_cabinet:ONE SITE</h1>
 
-# Criação de um site em Vue.js / Axios / Route
+## :memo: Descrição
+Exercício Vue.js
 
-# mobile first
+## :wrench: Tecnologias utilizadas
+* Vue.js;
